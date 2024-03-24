@@ -2,6 +2,7 @@ import Header from '../components/header/Header'
 import Title from '../components/Title'
 import Footer from '../components/Footer'
 import {useState} from 'react'
+import img1 from '../assets/images/banner-1.jpg'
 function Catalogue() {
   const [left, setLeft] = useState('left-[0px]');
 
@@ -41,7 +42,7 @@ function Catalogue() {
               <div className="relative w-[100%] h-[500px] overflow-hidden">
                 <div className={`grid grid-cols-10 grid-rows-3 gap-[10px] w-[1400px] text-sm absolute duration-1000 ${left} top-0`}>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="public/assets/images/page2-img1.jpg" alt="" />
+                    <img className='h-full' src="../assets/images/page2-img1.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
@@ -158,7 +159,7 @@ function Catalogue() {
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="public/assets/images/page2-img6.jpg" alt="" />
+                    <img className='h-full' src="../assets/images/page2-img6.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
@@ -183,7 +184,7 @@ function Catalogue() {
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src={"/public/assets/images/page2-img8.jpg"} alt="" />
+                    <img className='h-full' src={img1} alt="" /> 
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
