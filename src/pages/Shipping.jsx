@@ -2,11 +2,13 @@ import Header from '../components/header/Header'
 import Title from '../components/Title'
 import Footer from '../components/Footer'
 import Map from '../components/Map'
+import imagesNav from '../assets/images/images.png'
+
 
 function Shipping() {
   return (
     <>
-      <Header />
+      <Header imagesNav={imagesNav}/>
       <Title />
       <div className='bg-[#F2F2F2]'>
         <div className='containerr flex flex-col lg:flex-row gap-[70px] mx-auto py-[30px]'>

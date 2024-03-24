@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './Carousel.css';
 
-function Carousel() {
+
+function Carousel({slider1,slider2,slider3}) {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    'src/assets/images/slider-img1.jpg',
-    'src/assets/images/slider-img2.jpg',
-    'src/assets/images/slider-img3.jpg'
+    slider1,
+    slider2,
+    slider3
   ];
 
   useEffect(() => {

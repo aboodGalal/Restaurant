@@ -5,8 +5,15 @@ import Carousel from '../components/carousel/Carousel'
 import Header from '../components/header/Header'
 import Title from '../components/Title'
 import Footer from '../components/Footer';
+import banner1 from '../assets/images/banner-1.jpg'
+import banner2 from '../assets/images/banner-2.jpg'
+import banner3 from '../assets/images/banner-3.jpg'
+import imagesNav from '../assets/images/images.png'
+import slider1 from '../assets/images/slider-img1.jpg'
+import slider2 from '../assets/images/slider-img2.jpg'
+import slider3 from '../assets/images/slider-img3.jpg'
 function About() {
-  const images = ['public/assets/images/banner-1.jpg', 'public/assets/images/banner-3.jpg', 'public/assets/images/banner-1.jpg']
+  const images = [banner1,banner2,banner3]
   const links = [
     'Duis autem vel eum iriure dolor',
     'Hendrerit in vulputate velit esse molestie',
@@ -17,9 +24,9 @@ function About() {
     'Delenit augue duis dolore te feugait']
   return (
     <>
-      <Header />
+      <Header imagesNav={imagesNav}/>
       <Title />
-      <Carousel />
+      <Carousel slider1={slider1} slider2={slider2} slider3={slider3}/>
       <div className='bg-[#F2F2F2]'>
         <div className='containerr mx-auto el-center gap-3 flex-wrap pt-[75px] '>
           {images.map((img, index) => (

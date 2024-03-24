@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 
-function Header() {
+function Header({imagesNav}) {
   let links = [
     { name: 'About', path: '/' },
     { name: 'Menu', path: '/menu' },
@@ -21,7 +21,7 @@ function Header() {
       <header className="containerr mx-auto relative md:flex justify-between items-center py-[20px] bg-main z-20">
         <div className="absolute top-0 left-0 bg-[#000000] w-full h-full z-20 block md:hidden"></div>
       <div className="logo w-[50px] h-[30px]  ">
-        <img className="w-[100%] relative z-30" src="src/assets/images/images.png" alt="" />
+        <img className="w-[100%] relative z-30" src={imagesNav} alt="" />
       </div>
       <span
         onClick={() => setDrop(!drop)}

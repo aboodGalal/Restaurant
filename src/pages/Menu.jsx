@@ -4,9 +4,102 @@ import Footer from '/src/components/Footer.jsx'
 import RedBtn from '../components/RedBtn'
 import GreenBtn from '../components/GreenBtn'
 import { useState } from 'react'
-import links from '../Links'
+
+import imagesNav from '../assets/images/images.png'
+import page2_1 from '../assets/images/page2-img1.jpg'
+import page2_2 from '../assets/images/page2-img2.jpg'
+import page2_3 from '../assets/images/page2-img3.jpg'
+import page2_4 from '../assets/images/page2-img4.jpg'
+import page2_5 from '../assets/images/page2-img5.jpg'
+import page2_6 from '../assets/images/page2-img6.jpg'
+import page2_7 from '../assets/images/page2-img7.jpg'
+import page2_8 from '../assets/images/page2-img8.jpg'
+import page2_9 from '../assets/images/page2-img9.jpg'
+import page2_10 from '../assets/images/page2-img10.jpg'
 
 function Menu() {
+  const links = [
+    {
+      link: 'Nam liber tempor cum soluta nobis eleifend', price: '$12.95',
+      img: page2_1
+    },
+    {
+      link: 'ption congue nihil imperdiet doming id quod mazim', price: '$9.50O',
+      img: page2_2
+    },
+    {
+      link: 'Placerat facer possim assum', price: '$13.90',
+      img: page2_3
+    },
+    {
+      link: 'Lorem ipsum dolor sit amet, consectetuer', price: '$20.15',
+      img: page2_4
+    },
+    {
+      link: 'Adipiscing elit, sed diam nonummy nibh euismod tincidunt', price: '$15.05',
+      img: page2_5
+    },
+    {
+      link: 'Nam liber tempor cum soluta nobis eleifend', price: '$12.95',
+      img: page2_6
+    },
+    {
+      link: 'ption congue nihil imperdiet doming id quod mazim', price: '$9.50O',
+      img: page2_7
+    },
+    {
+      link: 'Placerat facer possim assum', price: '$13.90',
+      img: page2_8
+    },
+    {
+      link: 'Lorem ipsum dolor sit amet, consectetuer', price: '$20.15',
+      img: page2_10
+    },
+    {
+      link: 'Adipiscing elit, sed diam nonummy nibh euismod tincidunt', price: '$15.05',
+      img: page2_6
+    },
+    {
+      link: 'Nam liber tempor cum soluta nobis eleifend', price: '$12.95',
+      img: page2_10
+    },
+    {
+      link: 'ption congue nihil imperdiet doming id quod mazim', price: '$9.50O',
+      img: page2_1
+    },
+    {
+      link: 'Placerat facer possim assum', price: '$13.90',
+      img: page2_9
+    },
+    {
+      link: 'Lorem ipsum dolor sit amet, consectetuer', price: '$20.15',
+      img: page2_3
+    },
+    {
+      link: 'Adipiscing elit, sed diam nonummy nibh euismod tincidunt', price: '$15.05',
+      img: page2_4
+    },
+    {
+      link: 'Lorem ipsum dolor sit amet, consectetuer', price: '$20.15',
+      img: page2_5
+    },
+    {
+      link: 'Adipiscing elit, sed diam nonummy nibh euismod tincidunt', price: '$15.05',
+      img: page2_6
+    },
+    {
+      link: 'Nam liber tempor cum soluta nobis eleifend', price: '$12.95',
+      img: page2_7
+    },
+    {
+      link: 'ption congue nihil imperdiet doming id quod mazim', price: '$9.50O',
+      img: page2_8
+    },
+]
+
+
+
+
   const [left, setLeft] = useState('left-[0px]');
 
   const chLeft = (a) => {
@@ -35,11 +128,13 @@ function Menu() {
     }
   };
 
+  
+
 
  
   return (
     <>
-      <Header />
+      <Header imagesNav={imagesNav}/>
       <Title />
       <div className='bg-[#F2F2F2]'>
         <div className="containerr flex flex-col lg:flex-row py-[30px] mx-auto gap-[40px]">
@@ -47,7 +142,7 @@ function Menu() {
             <div className="flex flex-col h-fit items-center lg:items-start gap-[15px]">
               <h3 className='mb-[15px] self-center lg:self-start text-[25px]'>Special Offer</h3>
               <div className="flex gap-[20px] flex-col md:flex-row">
-                <img className='h-[100px] w-[200px]' src="src/assets/images/page2-img1.jpg" alt="" />
+                <img className='h-[100px] w-[200px]' src={page2_2} alt="" />
                 <div className="flex flex-col w-[210px] text-gray-700 text-sm text-center md:text-start">
                   <h4>Nam liber tempor cusoluta</h4>
                   <p>Nobis eleifend option congue nihil imperdiet doming quod mazim placerat facer possim orem ipsum dolor sit consectetuer.</p>
