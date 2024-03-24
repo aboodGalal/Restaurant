@@ -41,154 +41,154 @@ function Catalogue() {
               <div className="relative w-[100%] h-[500px] overflow-hidden">
                 <div className={`grid grid-cols-10 grid-rows-3 gap-[10px] w-[1400px] text-sm absolute duration-1000 ${left} top-0`}>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img1.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img1.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img2.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img2.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img3.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img3.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img4.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img4.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img5.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img5.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img6.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img6.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img7.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img7.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img8.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img8.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img9.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img10.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img2.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img3.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img4.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img5.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img6.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img7.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img8.jpg" alt="" />
-                    <p>Nam liber tempor</p>
-                    <p>(price $12.95)</p>
-                  </div>
-                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img9.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img9.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
 
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img1.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img10.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img2.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img2.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img3.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img3.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img4.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img4.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img5.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img5.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img6.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img6.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img7.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img7.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img8.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img8.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img9.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img9.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img1.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img7.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img2.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img8.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img3.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="src/assets/images/page2-img9.jpg" alt="" />
+                    <img className='h-full' src="public/assets/images/page2-img4.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img5.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img6.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img7.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img8.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img9.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img7.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img8.jpg" alt="" />
+                    <p>Nam liber tempor</p>
+                    <p>(price $12.95)</p>
+                  </div>
+                  <div className="flex flex-col gap-[5px] w-[100px] text-sm">
+                    <img className='h-full' src="public/assets/images/page2-img9.jpg" alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>

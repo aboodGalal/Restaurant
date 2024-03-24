@@ -6,7 +6,7 @@ import Header from '../components/header/Header'
 import Title from '../components/Title'
 import Footer from '../components/Footer';
 function About() {
-  const images = ['src/assets/images/banner-1.jpg', 'src/assets/images/banner-3.jpg', 'src/assets/images/banner-1.jpg']
+  const images = ['public/assets/images/banner-1.jpg', 'public/assets/images/banner-3.jpg', 'public/assets/images/banner-1.jpg']
   const links = [
     'Duis autem vel eum iriure dolor',
     'Hendrerit in vulputate velit esse molestie',
