@@ -33,7 +33,6 @@ function Carousel({slider1,slider2,slider3}) {
 
   return (
     <div className='w-full h-[40vh] md:h-[70vh] relative bg-[#C52E02]'>
-      {/* <img className="absolute left-0 top-0 w-full h-full z-[-1]" src="src/assets/images/row-bot-bg.jpg" alt="" /> */}
       <div className='containerr bg-white p-[10px] el-center relative  h-[50vh] md:h-[80vh] mx-auto'>
         {images.map((image, index) => (
           <img

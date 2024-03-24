@@ -4,7 +4,7 @@ import Footer from '/src/components/Footer.jsx'
 import RedBtn from '../components/RedBtn'
 import GreenBtn from '../components/GreenBtn'
 import { useState } from 'react'
-import row from '../assets/images/row-bot-bg.jpg'
+
 import imagesNav from '../assets/images/images.png'
 import page2_1 from '../assets/images/page2-img1.jpg'
 import page2_2 from '../assets/images/page2-img2.jpg'
@@ -135,7 +135,7 @@ function Menu() {
   return (
     <>
       <Header imagesNav={imagesNav}/>
-      <Title row={row}/>
+      <Title />
       <div className='bg-[#F2F2F2]'>
         <div className="containerr flex flex-col lg:flex-row py-[30px] mx-auto gap-[40px]">
           <div className="left flex-1 flex flex-col gap-[40px]">
