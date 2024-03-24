@@ -4,13 +4,14 @@ import Footer from '../components/Footer'
 import Map from '../components/Map'
 import GreenBtn from '../components/GreenBtn'
 import imagesNav from '../assets/images/images.png'
+import row from '../assets/images/row-bot-bg.jpg'
 
 
 function Contact() {
   return (
     <>
       <Header imagesNav={imagesNav}/>
-      <Title />
+      <Title row={row}/>
       <div className="bg-[#F2F2F2]">
         <div className="containerr mx-auto flex flex-col md:flex-row gap-[50px] py-[40px]">
           <div className="flex flex-col gap-[10px] lg:w-1/3 text-center lg:text-left">

@@ -2,13 +2,14 @@ import Header from '../components/header/Header'
 import Title from '../components/Title'
 import Footer from '../components/Footer'
 import imagesNav from '../assets/images/images.png'
+import row from '../assets/images/row-bot-bg.jpg'
 
 
 function Faq() {
   return (
     <>
     <Header imagesNav={imagesNav}/>
-    <Title />
+    <Title row={row}/>
     <div className="bg-[#F2F2F2]">
       <div className="containerr flex flex-col mx-auto gap-[20px] text-center md:text-start py-[20px]">
         <h1 className='text-lg'>Frequently Asked Questions</h1>

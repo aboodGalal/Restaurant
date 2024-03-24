@@ -13,6 +13,8 @@ import page2_8 from '../assets/images/page2-img8.jpg'
 import page2_9 from '../assets/images/page2-img9.jpg'
 import page2_10 from '../assets/images/page2-img10.jpg'
 import imagesNav from '../assets/images/images.png'
+import row from '../assets/images/row-bot-bg.jpg'
+
 
 function Catalogue() {
   const [left, setLeft] = useState('left-[0px]');
@@ -45,7 +47,7 @@ function Catalogue() {
   return (
     <>
       <Header imagesNav={imagesNav}/>
-      <Title />
+      <Title row={row}/>
       <div className='bg-[#F2F2F2]'>
         <div className="containerr mx-auto">
         <div className="tble flex flex-col">
