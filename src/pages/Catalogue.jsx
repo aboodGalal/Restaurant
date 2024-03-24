@@ -183,7 +183,7 @@ function Catalogue() {
                     <p>(price $12.95)</p>
                   </div>
                   <div className="flex flex-col gap-[5px] w-[100px] text-sm">
-                    <img className='h-full' src="public/assets/images/page2-img8.jpg" alt="" />
+                    <img className='h-full' src={"/public/assets/images/page2-img8.jpg"} alt="" />
                     <p>Nam liber tempor</p>
                     <p>(price $12.95)</p>
                   </div>
