@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer{
+    .el-center{
+        @apply flex justify-center items-center
+    }
+    .containerr{
+        width: 75%;
+    }
+}
